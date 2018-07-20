@@ -1,0 +1,6 @@
+apps:
+  - script: ./server/server.js
+    name: webpacktest
+    env:
+      NODE_ENV: production
+      HOST: localhost
